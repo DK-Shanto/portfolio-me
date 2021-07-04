@@ -1,0 +1,62 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+.first-sec{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+
+
+p{
+    color: dimgray;
+}
+.second-sec{
+    display:flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.font-span{
+    color:tomato;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.contact-me{
+    text-decoration: none;
+    font-weight: 700;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    
+}
+.div-design{
+    width: 50%;
+    padding-left: 6%;
+    padding-top: 1%;
+    padding-bottom: 20px;
+}
+
+.div-design img{
+    width: 100%;
+}
+
+.div-design-second{
+    width: 50%;
+    padding-left: 6%;
+    padding-top: 3%;
+    padding-right: 9%;
+}
+
+.div-design-second img{
+    width: 100%;
+}
