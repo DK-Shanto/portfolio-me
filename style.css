@@ -30,6 +30,10 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    font-size: 40px;
+}
+
 .contact-me{
     text-decoration: none;
     font-weight: 700;
@@ -55,8 +59,45 @@ h1{
     padding-left: 6%;
     padding-top: 3%;
     padding-right: 9%;
+    padding-bottom: 10px;
 }
 
 .div-design-second img{
     width: 100%;
+}
+
+.experience{
+    padding-left: 10px;
+}
+
+.third-sec{
+    display:flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    padding-bottom: 90px;
+}
+
+.experience-div{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 3%;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 1%;
+}
+
+#experience-id{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#experience-id1{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon,tomato);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
